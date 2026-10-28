@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* Prevent mobile pull-to-refresh and elastic overscroll completely */
+html,
+body,
+#root {
+  overscroll-behavior-y: none;
+  overscroll-behavior-x: none;
+  overscroll-behavior: none;
+}

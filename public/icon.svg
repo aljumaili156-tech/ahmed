@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="50%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="bellGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="40%" stop-color="#facc15"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background rounded rect -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+
+  <!-- Subtle ring waves -->
+  <circle cx="256" cy="240" r="190" fill="none" stroke="#ffffff" stroke-width="4" stroke-opacity="0.15" stroke-dasharray="12 12"/>
+  <circle cx="256" cy="240" r="160" fill="none" stroke="#ffffff" stroke-width="6" stroke-opacity="0.25"/>
+
+  <!-- Bell Shape -->
+  <g filter="url(#shadow)">
+    <!-- Top Bell Loop -->
+    <path d="M236 120 C236 108 245 98 256 98 C267 98 276 108 276 120 L276 142 L236 142 Z" fill="#eab308" />
+    <circle cx="256" cy="115" r="8" fill="#1e3a8a"/>
+
+    <!-- Bell Body -->
+    <path d="M256 140 
+             C200 140 170 185 165 260 
+             C160 330 135 345 125 355
+             C120 360 125 372 135 372
+             L377 372
+             C387 372 392 360 387 355
+             C377 345 352 330 347 260
+             C342 185 312 140 256 140 Z" 
+          fill="url(#bellGrad)"/>
+
+    <!-- Bell Clapper -->
+    <path d="M226 372 C226 395 240 408 256 408 C272 408 286 395 286 372 Z" fill="#92400e"/>
+    <circle cx="256" cy="390" r="12" fill="#78350f"/>
+
+    <!-- Highlight Reflection -->
+    <path d="M220 180 C210 210 200 270 195 320" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-opacity="0.5"/>
+  </g>
+
+  <!-- Timer/2-min Badge -->
+  <g transform="translate(320, 290)">
+    <circle cx="50" cy="50" r="46" fill="#ef4444" stroke="#ffffff" stroke-width="6"/>
+    <text x="50" y="58" font-family="'Cairo', sans-serif" font-weight="900" font-size="28" fill="#ffffff" text-anchor="middle">2m</text>
+  </g>
+</svg>

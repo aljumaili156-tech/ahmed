@@ -1,0 +1,209 @@
+{
+  "teachers": [
+    {
+      "id": "teacher-1",
+      "name": "أستاذ أحمد حسن الجميلي",
+      "username": "ahmed",
+      "password": "123",
+      "subject": "الفيزياء",
+      "phone": "07701234567",
+      "notes": "مدرس أول لمادة الفيزياء",
+      "createdAt": "2026-10-26T16:19:35.632Z"
+    },
+    {
+      "id": "teacher-2",
+      "name": "ست زينب علي الكرخي",
+      "username": "zainab",
+      "password": "123",
+      "subject": "الرياضيات",
+      "phone": "07809876543",
+      "notes": "مدرسة الرياضيات للمرحلة الإعدادية",
+      "createdAt": "2026-10-26T16:19:35.632Z"
+    },
+    {
+      "id": "teacher-3",
+      "name": "أستاذ حيدر محمد الأسدي",
+      "username": "haider",
+      "password": "123",
+      "subject": "اللغة العربية",
+      "phone": "07505554433",
+      "notes": "مدرس اللغة العربية والأدب",
+      "createdAt": "2026-10-26T16:19:35.632Z"
+    },
+    {
+      "id": "teacher-4",
+      "name": "ست مروة خالد السامرائي",
+      "username": "marwa",
+      "password": "123",
+      "subject": "اللغة الإنجليزية",
+      "phone": "07712334455",
+      "notes": "مدرسة اللغة الإنجليزية",
+      "createdAt": "2026-10-26T16:19:35.632Z"
+    },
+    {
+      "id": "teacher-5",
+      "name": "أستاذ عمر طارق الدليمي",
+      "username": "omar",
+      "password": "123",
+      "subject": "الكيمياء",
+      "phone": "07811122334",
+      "notes": "مدرس الكيمياء والمختبر",
+      "createdAt": "2026-10-26T16:19:35.632Z"
+    },
+    {
+      "id": "teacher-1793037837570-cwexs",
+      "name": "أستاذ مصطفى كامل",
+      "username": "mustafa",
+      "password": "123",
+      "subject": "أحياء",
+      "phone": "07799999999",
+      "notes": "",
+      "createdAt": "2026-10-26T18:03:57.570Z"
+    }
+  ],
+  "classes": [
+    {
+      "id": "class-test-now",
+      "teacherId": "teacher-1",
+      "dayOfWeek": 1,
+      "subject": "الفيزياء (حصة تجريبية فورية)",
+      "gradeAndSection": "الرابع العلمي - قاعة (أ)",
+      "room": "مختبر الفيزياء رقم 1",
+      "startTime": "16:21",
+      "endTime": "17:06",
+      "alertMinutesBefore": 2,
+      "isActive": true
+    },
+    {
+      "id": "c-101",
+      "teacherId": "teacher-1",
+      "dayOfWeek": 0,
+      "subject": "الفيزياء",
+      "gradeAndSection": "الخامس العلمي - شعبة أ",
+      "room": "قاعة 102 (الطابق الأول)",
+      "startTime": "08:30",
+      "endTime": "09:15",
+      "alertMinutesBefore": 2,
+      "isActive": true
+    },
+    {
+      "id": "c-102",
+      "teacherId": "teacher-1",
+      "dayOfWeek": 0,
+      "subject": "الفيزياء",
+      "gradeAndSection": "السادس العلمي - شعبة ب",
+      "room": "مختبر الفيزياء",
+      "startTime": "10:15",
+      "endTime": "11:00",
+      "alertMinutesBefore": 2,
+      "isActive": true
+    },
+    {
+      "id": "c-103",
+      "teacherId": "teacher-2",
+      "dayOfWeek": 0,
+      "subject": "الرياضيات",
+      "gradeAndSection": "الثالث المتوسط - شعبة ج",
+      "room": "قاعة 105",
+      "startTime": "08:30",
+      "endTime": "09:15",
+      "alertMinutesBefore": 2,
+      "isActive": true
+    },
+    {
+      "id": "c-104",
+      "teacherId": "teacher-1",
+      "dayOfWeek": 1,
+      "subject": "الفيزياء",
+      "gradeAndSection": "الرابع العلمي - شعبة ب",
+      "room": "قاعة 104",
+      "startTime": "09:20",
+      "endTime": "10:05",
+      "alertMinutesBefore": 2,
+      "isActive": true
+    },
+    {
+      "id": "c-105",
+      "teacherId": "teacher-1",
+      "dayOfWeek": 2,
+      "subject": "الفيزياء عملي",
+      "gradeAndSection": "السادس العلمي - شعبة أ",
+      "room": "مختبر العلوم المركزي",
+      "startTime": "08:30",
+      "endTime": "09:15",
+      "alertMinutesBefore": 2,
+      "isActive": true
+    },
+    {
+      "id": "c-106",
+      "teacherId": "teacher-1",
+      "dayOfWeek": 3,
+      "subject": "الفيزياء",
+      "gradeAndSection": "الخامس العلمي - شعبة ب",
+      "room": "قاعة 201",
+      "startTime": "11:10",
+      "endTime": "11:55",
+      "alertMinutesBefore": 2,
+      "isActive": true
+    },
+    {
+      "id": "c-107",
+      "teacherId": "teacher-1",
+      "dayOfWeek": 4,
+      "subject": "الفيزياء مراجعة",
+      "gradeAndSection": "السادس العلمي - شعبة أ+ب",
+      "room": "المدرج الرئيسي",
+      "startTime": "10:15",
+      "endTime": "11:00",
+      "alertMinutesBefore": 2,
+      "isActive": true
+    },
+    {
+      "id": "c-201",
+      "teacherId": "teacher-2",
+      "dayOfWeek": 1,
+      "subject": "الرياضيات",
+      "gradeAndSection": "الرابع العلمي - شعبة أ",
+      "room": "قاعة 101",
+      "startTime": "08:30",
+      "endTime": "09:15",
+      "alertMinutesBefore": 2,
+      "isActive": true
+    },
+    {
+      "id": "c-301",
+      "teacherId": "teacher-3",
+      "dayOfWeek": 0,
+      "subject": "اللغة العربية",
+      "gradeAndSection": "السادس الإعدادي - شعبة أ",
+      "room": "قاعة 203",
+      "startTime": "09:20",
+      "endTime": "10:05",
+      "alertMinutesBefore": 2,
+      "isActive": true
+    }
+  ],
+  "logs": [
+    {
+      "id": "log-sample-1",
+      "teacherId": "teacher-1",
+      "teacherName": "أستاذ أحمد حسن الجميلي",
+      "classId": "c-101",
+      "subject": "الفيزياء",
+      "gradeAndSection": "الخامس العلمي - شعبة أ",
+      "room": "قاعة 102",
+      "classStartTime": "08:30",
+      "acknowledgedAt": "2026-10-26T15:19:35.632Z",
+      "scheduledDate": "2026-10-26",
+      "status": "heading_to_class",
+      "note": "تم التوجه للقاعة في الموعد المحدد",
+      "syncedFromOffline": false
+    }
+  ],
+  "settings": {
+    "schoolName": "ثانوية النخبة النموذجية للبنين",
+    "defaultAlertMinutes": 2,
+    "ringDurationSeconds": 15,
+    "allowTeacherSoundChoice": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Remix نظام جرس الحصص الذكي للمدرسين",
+  "description": "تطبيق إدارة حصص المدرسين وتنبيهات الحصص قبل دقيقتين مع صوت الجرس وتأكيد التوجه ودعم العمل بدون إنترنت",
+  "requestFramePermissions": [
+    "notifications"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
